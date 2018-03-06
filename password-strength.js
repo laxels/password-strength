@@ -17,6 +17,7 @@
     ps.element = el;
     ps.criteria = CRITERIA;
 
+    args = args || {};
     ps.callbacks = args.callbacks || {};
 
     ps.container = document.createElement('div');
